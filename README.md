@@ -2,6 +2,10 @@
 
 > 多窗口上下文隔离 · Rules 动态驱动 · 3 次熔断闭环
 
+![Vibe Coding 全链路实战开发流程图](flowchart.png)
+
+**[👉 点击打开交互式展示页](https://yanjikang.github.io/vibe-coding-workflow/)**（支持缩放 / 平移 / 分层查看）
+
 一套经过实战验证的 AI 辅助开发（Vibe Coding）完整工作流，覆盖从"一个想法"到"正式上线"的全部 21 个步骤，按 5 个阶段组织：
 
 | 阶段 | 名称 | 要点 |
@@ -31,6 +35,7 @@
 
 ```
 ├── index.html                  # 展示页（内嵌 draw.io viewer，无需构建）
+├── flowchart.png               # 流程图预览图（README 展示用，2x 高清导出）
 ├── Vibe-Coding-Workflow.drawio # draw.io 源文件（1920×1080 黑色主题）
 └── README.md
 ```
