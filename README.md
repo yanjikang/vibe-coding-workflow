@@ -27,16 +27,29 @@
 
 ## 查看方式
 
-- **在线展示页**（推荐）：启用本仓库的 GitHub Pages 后访问 `index.html`，流程图可直接在浏览器中缩放、分层查看
+- **[📖 深度讲解指南 GUIDE.md](GUIDE.md)**：一句话心法、熔断四步、Rules 反哺、SOP 检查清单、五分钟上手示例
+- **[🌐 在线展示页](https://yanjikang.github.io/vibe-coding-workflow/)**：交互式流程图，支持缩放、平移、分层查看
 - **源文件**：[Vibe-Coding-Workflow.drawio](Vibe-Coding-Workflow.drawio)，用 [app.diagrams.net](https://app.diagrams.net/) 或 draw.io Desktop 打开即可编辑
-- **本地预览**：直接双击 `index.html` 用浏览器打开
+
+## 配套模板（templates/）
+
+工作流的"记忆"全靠四份本地文档承载，新项目直接复制起步：
+
+| 模板 | 作用 | 对应步骤 |
+|------|------|----------|
+| [plan.md](templates/plan.md) | 开发计划：产品概述、技术栈锁定、里程碑拆解、完成定义 | Step 03 |
+| [docs.md](templates/docs.md) | 开发文档：架构、目录约定、数据模型、接口契约、ADR | Step 03 |
+| [rules.md](templates/rules.md) | 项目规范：技术栈约束 + 严禁事项（踩坑沉淀区） | Step 04/06，持续反哺 |
+| [progress.md](templates/progress.md) | 进度交接：已完成/待办/技术债/熔断记录 | Step 15 |
 
 ## 文件说明
 
 ```
 ├── index.html                  # 展示页（内嵌 draw.io viewer，无需构建）
+├── GUIDE.md                    # 深度讲解：心法 / 熔断 / Rules 反哺 / SOP / 上手示例
 ├── flowchart.png               # 流程图预览图（README 展示用，2x 高清导出）
 ├── Vibe-Coding-Workflow.drawio # draw.io 源文件（1920×1080 黑色主题）
+├── templates/                  # 四大核心资产模板（plan / docs / rules / progress）
 └── README.md
 ```
 
